@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Norbert Crombach"]
   s.email       = ["norbert.crombach@primetheory.org"]
   s.homepage    = "http://github.com/norbert/hellno"
-  s.summary     = %q{Unofficial Amen API client.}
+  s.summary     = %q{Unofficial client for the internal Amen API.}
 
   s.rubyforge_project = "hellno"
 
