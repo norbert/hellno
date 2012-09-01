@@ -111,6 +111,10 @@ module HellNo
       @data = data
     end
 
+    def id
+      data['id']
+    end
+
     def url
       data['url']
     end
@@ -123,16 +127,9 @@ module HellNo
   end
 
   class Amen < Resource
-    def id
-      data['id']
-    end
   end
 
   class User < Resource
-    def id
-      data['id']
-    end
-
     def username
       data['username']
     end
